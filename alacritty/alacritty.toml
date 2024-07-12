@@ -1,0 +1,30 @@
+working_directory = "Documents/Projects/"
+
+[window]
+padding = { x = 0, y = 0 }
+dynamic_padding = true
+decorations = "Full"
+blur = true
+opacity = 0.85
+startup_mode = "Maximized"
+
+[font]
+size = 14
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+
