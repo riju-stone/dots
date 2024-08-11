@@ -1,3 +1,7 @@
-# Useless files
+# Useless Files
 .DS_Store
+
+# Useless Folders
+automatic_backups/
+assets/
 

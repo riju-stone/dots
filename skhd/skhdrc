@@ -1,0 +1,35 @@
+# start / stop yabai service
+ctrl + alt - s : yabai --start-service
+ctrl + alt - q : yabai --stop-service
+
+# Focus Management
+ctrl + alt - up : yabai -m window --focus north
+ctrl + alt - down : yabai -m window --focus south
+ctrl + alt - left : yabai -m window --focus west
+ctrl + alt - right : yabai -m window --focus east
+
+# Layout Managemment
+# re-balance layout
+ctrl + alt - b : yabai -m space --balance
+# flip along y-axis
+ctrl + alt - y : yabai -m space --mirror y-axis
+# flip along x-axis
+ctrl + alt - x : yabai -m space --mirror x-axis
+# rotating layout clockwise
+alt - r : yabai -m space --rotate 270
+
+# Window mamanagement
+# remove window from space
+ctrl + alt - r : yabai -m window --toggle float --grid 4:4:1:1:2:2
+# maximize window
+ctrl + alt - f : yabai -m window --toggle zoom-fullscreen
+# swap windows
+shift + alt - up : yabai -m window --swap north
+shift + alt - down : yabai -m window --swap south
+shift + alt - left : yabai -m window --swap west
+shift + alt - right : yabai -m window --swap east
+# swap + split windows
+ctrl + shift - up : yabai -m window --warp north
+ctrl + shift - down : yabai -m window --warp south
+ctrl + shift - left : yabai -m window --warp west
+ctrl + shift - right : yabai -m window --warp east

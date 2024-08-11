@@ -1,0 +1,24 @@
+# layout options bsp, stack or float
+yabai -m config layout bsp
+
+# always move the newly opened app
+yabai -m config window_placement second_child
+
+# padding
+yabai -m config top_padding 8
+yabai -m config bottom_padding 8
+yabai -m config right_padding 8
+yabai -m config left_padding 8
+yabai -m config window_gap 4
+
+# mouse
+yabai -m config mouse_follows_focus on
+
+# exclude apps
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Yaak$" manage=off
+yabai -m rule --add app="^Activity Monitor$" manage=off
+
