@@ -9,7 +9,7 @@ yabai -m config top_padding 8
 yabai -m config bottom_padding 8
 yabai -m config right_padding 8
 yabai -m config left_padding 8
-yabai -m config window_gap 4
+yabai -m config window_gap 8
 
 # mouse
 yabai -m config mouse_follows_focus on
@@ -21,4 +21,7 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^Yaak$" manage=off
 yabai -m rule --add app="^Activity Monitor$" manage=off
-
+yabai -m rule --add app="^Shottr$" manage=off
+yabai -m rule --add app="^MediaMate$" manage=off
+yabai -m rule --add app="^Dropover$" manage=off
+yabai -m rule --add app="^Warp$" manage=off

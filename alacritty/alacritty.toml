@@ -1,9 +1,11 @@
 working_directory = "Documents/Projects/"
 
 [window]
-padding = { x = 0, y = 0 }
+padding = { y = 30, x = 10 }
+dimensions = {columns = 200, lines = 85}
 dynamic_padding = true
-decorations = "Full"
+dynamic_title = false
+decorations = "Transparent"
 blur = true
 opacity = 0.85
 startup_mode = "Maximized"
@@ -26,5 +28,3 @@ style = "Italic"
 [font.normal]
 family = "JetBrainsMono Nerd Font"
 style = "Regular"
-
-

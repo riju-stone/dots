@@ -5,3 +5,4 @@
 automatic_backups/
 assets/
 
+tmux/plugins/*
