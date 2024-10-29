@@ -1,4 +1,4 @@
-working_directory = "Documents/Projects/"
+working_directory = "Documents/projects/"
 
 [window]
 padding = { y = 30, x = 10 }
