@@ -15,6 +15,7 @@ return {
           -- '.git',
           -- '.DS_Store',
           -- 'thumbs.db',
+          -- '.vscode'
         },
         never_show = {},
       },

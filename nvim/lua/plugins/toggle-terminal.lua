@@ -24,7 +24,12 @@ return {
         "<leader>Tv",
         function()
           local count = vim.v.count1
-          require("toggleterm").toggle(count, vim.o.columns * 0.4, LazyVim.root.get(), "vertical")
+          require("toggleterm").toggle(
+            count,
+            vim.o.columns * 0.4,
+            LazyVim.root.get(),
+            "vertical"
+          )
         end,
         desc = "ToggleTerm (vertical root_dir)",
       },
@@ -44,13 +49,6 @@ return {
           require("toggleterm").toggle(1, 100, LazyVim.root.get(), "tab")
         end,
         desc = "ToggleTerm (tab root_dir)",
-      },
-      {
-        "<leader>TT",
-        function()
-          require("toggleterm").toggle(1, 100, vim.loop.cwd(), "tab")
-        end,
-        desc = "ToggleTerm (tab cwd_dir)",
       },
     },
     opts = {
